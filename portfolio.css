@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+    min-height: 50vh;
+
+}
+
+.first-section {
+    background-image:url(background_image.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.second-section {
+    background-image: url(background_img21.jpg); /* Replace 'image.jpg' with your image path */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+     padding: 400px; 
+    text-align: center;
+
+}
+.header {
+    text-align: center;
+    position: relative; /* Allows positioning of the heading image */
+     /* Adjust as needed based on the size of your header */
+}
+
+.heading-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px; /* Adjust the width of the heading image as needed */
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(243, 230, 230, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+}
+  .gallery{
+    display:flex;
+    flex-wrap: wrap;
+    width:700px;
+    justify-content:center;
+    align-items:center;
+    margin:50px 0;
+  }
+.content{
+    width:200px;
+    margin:15px;
+    box-sizing:border-box;
+    float:left;
+    text-align: center;
+    border-radius: 20px;
+    cursor:pointer;
+    padding-top:10px;
+    box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition:.4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px,-8px);
+}
+.shin{
+    width:200px;
+    height: 200px;
+    text-align: center;
+    margin:0 auto;
+    display: block;
+}
+p{
+    text-align:center;
+    color: #000000;
+    padding-top: 0 8px;
+}
+h2
+  {
+ text-align: center;
+ font-size:30px;
+ margin: 0;
+
+  }
+a{
+    text-decoration: none;
+}
